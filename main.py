@@ -42,8 +42,32 @@
 # print(output)
 
 # Recap
-days = 31
-hours = 24
-total_hours = days * hours
-msg = "There are {} in {} days".format(total_hours, days)
-print(msg)
+# days = 31
+# hours = 24
+# total_hours = days * hours
+# msg = "There are {} in {} days".format(total_hours, days)
+# print(msg)
+
+# Session 1 - Homework
+# # Needed to remove string from 15
+# chairs = 15
+# nails = 4
+# total_nails = chairs * nails
+# message = 'I need to buy {} nails'.format(total_nails)
+# print('you need to buy {} nails'.format(message))
+
+# # Q.2
+# my_name = 'Penelope'
+# my_age = 29
+#
+# message = 'My name is {} and I am {} years old'.format(my_name, my_age)
+# print(message)
+
+# # Q.3
+# boxes_of_eggs= 6
+# eggs_per_box = 6
+# eggs_per_omelette = 4
+# total_omelette = ((boxes_of_eggs * eggs_per_box)/eggs_per_omelette)
+#
+# message = 'You can make {} omelettes with {} boxes of eggs'.format(total_omelette, eggs_per_box)
+# print(message)
