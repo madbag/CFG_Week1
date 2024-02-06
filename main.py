@@ -63,11 +63,11 @@
 # message = 'My name is {} and I am {} years old'.format(my_name, my_age)
 # print(message)
 
-# # Q.3
-# boxes_of_eggs= 6
-# eggs_per_box = 6
-# eggs_per_omelette = 4
-# total_omelette = ((boxes_of_eggs * eggs_per_box)/eggs_per_omelette)
-#
-# message = 'You can make {} omelettes with {} boxes of eggs'.format(total_omelette, eggs_per_box)
-# print(message)
+# Q.3
+boxes_of_eggs= 6
+eggs_per_box = 6
+eggs_per_omelette = 4
+total_omelette = ((boxes_of_eggs * eggs_per_box)/eggs_per_omelette)
+
+message = 'You can make {} omelettes with {} boxes of eggs'.format(total_omelette, eggs_per_box)
+print(message)

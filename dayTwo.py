@@ -1,4 +1,5 @@
 # Session 2 - WEEK 2
+
 # User Input
 # age = input('What is your age?')
 # print('Hello, I am {} years old'.format(age))
@@ -29,7 +30,7 @@
 
 # For Loops
 # student = ("anna", "john", "maria")
-#
+
 # for myStudent in student:
 #     print("Hello {}".format(myStudent))
 
@@ -147,16 +148,34 @@
 # def times_two(num):
 #     result = num * 2
 #     return result
-#
+
 # for number in range(3): # 0,1,2
 #    calc_res = times_two(number)
 #    print(calc_res)
 
-import datetime
-# x = datetime.datetime.now()
-# print(x)
+# import datetime
+# # x = datetime.datetime.now()
+# # print(x)
 
-my_date = datetime.date(2020, 12, 31)
-print(my_date.strftime("%d-%b-%Y"))
+# my_date = datetime.date(2020, 12, 31)
+# print(my_date.strftime("%d-%b-%Y"))
+
+# Homework Session 2:
+# Question 1
+# for number in range(100):
+#     output='o'*number
+#     print(output)
+
+#     Gives output based on the number mentioned in the bracket
+
+# Question 2
+def calculate_vat(amount):
+    overall = amount*1.2
+    return overall
+
+total = calculate_vat(100)
+# calculate_vat(100)
+print(total)
+
 
 
